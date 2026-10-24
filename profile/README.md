@@ -15,7 +15,7 @@
 
 We do not exist to build just one product; we exist to **repeatedly build successful ventures**.
 
-> *"We do not build projects. We build institutions."* — **The fOrge Creed**
+*"We do not build projects. We build institutions."* - **The fOrge Creed**
 
 ---
 
@@ -54,5 +54,5 @@ All source code, models, architecture, designs, research, databases, and digital
 ---
 
 <div align="center">
-  <sub>© fOrge. All rights reserved. Built for long-term impact.</sub>
+  <sub>© 2026 fOrge. All rights reserved. Built for long-term impact.</sub>
 </div>
