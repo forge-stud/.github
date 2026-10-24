@@ -1,0 +1,24 @@
+name: Update Copyright Year
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *' # Runs every year on January 1st at midnight
+  workflow_dispatch:
+
+jobs:
+  update-year:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Year in README
+        run: |
+          CURRENT_YEAR=$(date +%Y)
+          sed -i "s/© [0-9]* fOrge/© $CURRENT_YEAR fOrge/g" profile/README.md
+          
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update copyright year to current year"
+          file_pattern: profile/README.md
