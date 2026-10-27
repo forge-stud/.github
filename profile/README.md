@@ -14,7 +14,7 @@ fOrge is an African venture-building institution and innovation studio. We trans
 We do not exist to build just one product. We exist to build successful ventures, repeatedly.
 
 > *"We do not build projects. We build institutions."*
-> — The fOrge Creed
+> - The fOrge Creed
 
 ## Our Mission
 
