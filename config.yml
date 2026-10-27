@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Report a security vulnerability
-    url: https://github.com/forge-stud/.github/blob/main/SECURITY.md
-    about: Never report security issues in an issue. Follow our security policy instead.
